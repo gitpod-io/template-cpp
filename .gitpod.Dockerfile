@@ -11,5 +11,5 @@ RUN sudo pip install --system conan
 RUN echo 'export CC=clang' >> /home/gitpod/.bashrc
 #RUN echo 'export CC=gcc' >> /home/gitpod/.bashrc
 
-RUN echo 'export CCX=clang++' >> /home/gitpod/.bashrc
-#RUN echo 'export CCX=g++' >> /home/gitpod/.bashrc
+RUN echo 'export CXX=clang++' >> /home/gitpod/.bashrc
+#RUN echo 'export CXX=g++' >> /home/gitpod/.bashrc
