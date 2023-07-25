@@ -11,7 +11,8 @@ ports:
     onOpen: ignore
   - port: 6080 # VNC for X11 C++ GUI Development
     onOpen: open-preview
-  
+
 vscode:
   extensions:
     - ms-vscode.cpptools
+    - twxs.cmake
